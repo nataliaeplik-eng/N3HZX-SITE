@@ -17,8 +17,6 @@ body {
     padding: 40px 0;
 }
 
-/* HEADER */
-
 .header {
     border-bottom: 1px solid #333;
     padding-bottom: 25px;
@@ -39,8 +37,6 @@ body {
     letter-spacing: 5px;
     font-weight: bold;
 }
-
-/* APPS */
 
 .apps {
     display: grid;
@@ -67,6 +63,15 @@ body {
     font-size: 12px;
     letter-spacing: 3px;
     margin-bottom: 40px;
+}
+
+.app-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    image-rendering: auto;
+    margin-bottom: 18px;
 }
 
 .app-card h2 {
@@ -102,25 +107,18 @@ button:hover,
     color: black;
 }
 
-/* FOOTER */
-
 footer {
     border-top: 1px solid #333;
     margin-top: 60px;
     padding-top: 20px;
-
     display: flex;
     justify-content: space-between;
-
     color: #555;
     font-size: 12px;
     letter-spacing: 2px;
 }
 
-/* PHONE */
-
 @media (max-width: 650px) {
-
     .container {
         width: 88%;
         padding: 25px 0;
