@@ -81,7 +81,9 @@ body {
     max-width: 400px;
 }
 
-button {
+button,
+.app-button {
+    display: inline-block;
     margin-top: 30px;
     background: #e60000;
     color: white;
@@ -89,9 +91,13 @@ button {
     padding: 12px 25px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 13.3333px;
 }
 
-button:hover {
+button:hover,
+.app-button:hover {
     background: white;
     color: black;
 }
