@@ -129,6 +129,12 @@ body {
     max-width: 400px;
 }
 
+.app-card .download-note {
+    margin-top: 12px;
+    color: #666;
+    font-size: 12px;
+}
+
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
